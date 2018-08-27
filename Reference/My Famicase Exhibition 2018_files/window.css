@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* ===================================================================
+ style info : コンテンツエリア関係 他
+
+fonts
+ 10px = 77%     11px = 85%     12px = 93%     13px = 100%
+ 14px = 108%    15px = 116%    16px = 123.1%  17px = 131%
+ 18px = 138.5%  19px = 146.5%  20px = 153.9%  21px = 161.6%
+ 22px = 167%    23px = 174%    24px = 182%    25px = 189%
+ 26px = 197%
+=================================================================== */
+
+/*----------------------------------------------------
+	共通
+----------------------------------------------------*/
+/* スクロールバーの有無によるズレ対策 */
+
+body {
+	-webkit-text-size-adjust: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+}
+
+input, textarea {
+	font-family: "メイリオ", "ＭＳ Ｐゴシック", sans-serif;
+}
+
+/* for IE6 */
+* html body {
+	font-family: "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+}
+* html input, * html textarea {
+	font-family: "ＭＳ Ｐゴシック", "MS PGothic", Sans-Serif;
+}
+
+/* リンク
+----------------------------------------------------*/
+a {
+	color:#0066FF;
+	text-decoration:underline;
+}
+
+a:hover {
+	color:#FF00FF;
+	text-decoration:underline;
+}
+
+
+/* 汎用
+----------------------------------------------------*/
+/* clerfix */
+#contents:after {
+	content: "."; display: block; visibility: hidden; height: 0.1px; font-size: 0.1em; line-height: 0; clear: both;
+}
+
+/*----------------------------------------------------
+	#window（ページ全体）
+----------------------------------------------------*/
+
+#window {
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+#window .img-logo{
+	padding:10px 0 0 0;
+	margin:0px;
+}
+
+#window .right {
+	width:460px;
+	margin:0;
+	padding:0;
+	float:right;
+}
+
+#window h3{
+	font-size: medium;
+	padding:10px 0 0 0;
+	margin:0px;
+}
+
+#window h4{
+	font-size: small;
+	line-height: 140%;
+	padding:1px 0 5px 0;
+	margin:0px;
+}
+
+#window p.small{
+	font-size: small;
+    line-height: 150%;
+	padding:0;
+	margin:0px;
+}
+
+#window p.ss{
+	font-size: small;
+    line-height: 140%;
+	padding:0;
+	margin:0px;
+}
+
+#window p.sss{
+	font-size: small;
+    line-height: 100%;
+	padding:0;
+	margin:0px;
+}
+
+#window p.ssss{
+	font-size: x-small;
+    line-height: 140%;
+	padding:0;
+	margin:0px;
+}
+
+#window small{
+	font-size: small;
+    line-height: 150%;
+	padding:0;
+	margin:0px;
+}
+
+#window .ss{
+	font-size: small;
+    line-height: 140%;
+	padding:0;
+	margin:0px;
+}
+
+#window .sss{
+	font-size: small;
+    line-height: 100%;
+	padding:0;
+	margin:0px;
+}
+
+#window p.ssss{
+	font-size: x-small;
+    line-height: 140%;
+	padding:0;
+	margin:0px;
+}
+
